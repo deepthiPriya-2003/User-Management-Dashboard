@@ -1,0 +1,114 @@
+.dashboard-bg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffffff;
+    height:100vh;
+    background-size: cover;
+} 
+
+.heading{
+    color:rgb(77, 45, 107);
+    text-align: center;
+}
+
+.user-details-bg-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.user-details-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height:200px;
+    width:35vw;
+    background-color:#7d347694 ;
+    color:#ffffff;
+    margin:10px;
+    background-size: cover;
+    padding:5px;
+   
+    
+}
+
+
+.details-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: scroll;
+    scrollbar-width:none;
+    background-size: cover;
+    
+    
+
+} 
+
+
+
+.buttons-bg-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height:200px;
+    background-size: cover;
+    
+   
+}
+
+.margin{
+    margin: 5px;
+}
+
+.margin-left{
+    margin: 5px;
+}
+.margin-right{
+    margin: 5px;
+}
+
+.image{
+    height:100px;
+    width:100px;
+}
+
+.user-name{
+    font-size:25px;
+}
+
+
+@media screen and (max-width:768px){
+    .image{
+        height:50px;
+        width:50px;
+    }
+
+    .user-name{
+        font-size:15px;
+    }
+
+    .user-details-bg-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .user-details-container{
+        width:80vw;
+        height:300px;
+        overflow: scroll;
+        scrollbar-width: 0px;
+        background-size: cover;
+       
+    }
+
+}
